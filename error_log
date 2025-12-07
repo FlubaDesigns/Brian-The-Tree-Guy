@@ -1,0 +1,16 @@
+[09-Dec-2022 20:36:07 UTC] Bluehost WP Plugin: Failed to fetch token: {"error":"Forbidden","http_status":403,"_status_code":403,"_response":"{\"error\":\"Forbidden\",\"http_status\":403}"}
+[09-Dec-2022 20:37:12 UTC] Cron reschedule event error for hook: nfd_data_sync_cron, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"minutely","args":[],"interval":60}
+[12-Dec-2022 02:15:13 UTC] PHP Warning:  require_once(/home3/briantk3/public_html/wp-admin/includes/class-wp-site-health.php): Failed to open stream: No such file or directory in /home3/briantk3/public_html/wp-settings.php on line 599
+[12-Dec-2022 02:15:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/briantk3/public_html/wp-admin/includes/class-wp-site-health.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home3/briantk3/public_html/wp-settings.php:599
+Stack trace:
+#0 /home3/briantk3/public_html/wp-config.php(101): require_once()
+#1 /home3/briantk3/public_html/wp-load.php(50): require_once('/home3/briantk3...')
+#2 /home3/briantk3/public_html/xmlrpc.php(31): require_once('/home3/briantk3...')
+#3 {main}
+  thrown in /home3/briantk3/public_html/wp-settings.php on line 599
+[11-Dec-2022 22:45:52 America/Boise] PHP Warning:  require(/home3/briantk3/public_html/wp-blog-header.php): Failed to open stream: No such file or directory in /home3/briantk3/public_html/index.php on line 17
+[11-Dec-2022 22:45:52 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/briantk3/public_html/wp-blog-header.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home3/briantk3/public_html/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/briantk3/public_html/index.php on line 17
+[04-Jan-2023 12:22:06 America/Boise] PHP Warning:  Undefined variable $message in /home3/briantk3/public_html/indexJake.php on line 274
