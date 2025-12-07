@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Nav styles */
+/* change the background color */
+
+
+.back-orange { background-color:#ee5a29;}
+.back-orange-solid {background-color:#ff670f;}
+/* colors */
+.secondary {
+	color:#008244; }
+
+.back-orange-gradient {
+     background: rgb(238,90,41);
+     background: linear-gradient(132deg, rgba(238,90,41,1) 0%, rgba(254,254,254,0.19509810760241597) 34%, rgba(246,251,252,0) 62%); 
+}
+.third-color {
+	color:#ee5a29;	} 
+
+.wsmoke {background-color:#F5F5F5; }
+
+/* Nav styles */
+/* change the background color */
+
+.top-background { background: url("../images/englewood-tree-services.png") top right no-repeat;
+      }
+
+
+.navbar-custom {
+    font-weight:bold;
+    font-size:1.3em;
+}
+ 
+		
+			#app {
+				-webkit-column-count: 4;
+				-moz-column-count: 4;
+				column-count: 4;
+				-webkit-column-gap: 15px;
+				-moz-column-gap: 15px;
+				column-gap: 15px;
+			}
+			#app img {
+				width: 100%;
+			}
+

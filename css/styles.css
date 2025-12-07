@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+/* Globals*/
+p {font-size:1.2em;}
+p.lead {font-size:1.25em; font-weight:bold;}
+
+/* Nav styles */
+/* change the background color */
+
+
+.back-orange { background-color:#ee5a29;}
+.back-orange-solid {background-color:#ff670f;}
+/* colors */
+.secondary {
+	color:#008244; }
+
+.third-color {
+	color:#ee5a29;	} 
+
+.nav-list ul li {font-size: 1.2 em; }
+
+.wsmoke {background-color:#F5F5F5; }
+
+
+.back-orange-gradient {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7db9e8+6,f7b927+35,ff670f+62,ee5a29+100&0.03+0,1+100 */
+background: -moz-linear-gradient(-45deg,  rgba(125,185,232,0.03) 0%, rgba(125,185,232,0.09) 6%, rgba(247,185,39,0.37) 35%, rgba(255,103,15,0.63) 62%, rgba(238,90,41,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  rgba(125,185,232,0.03) 0%,rgba(125,185,232,0.09) 6%,rgba(247,185,39,0.37) 35%,rgba(255,103,15,0.63) 62%,rgba(238,90,41,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  rgba(125,185,232,0.03) 0%,rgba(125,185,232,0.09) 6%,rgba(247,185,39,0.37) 35%,rgba(255,103,15,0.63) 62%,rgba(238,90,41,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#087db9e8', endColorstr='#ee5a29',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+
+
+
+/* Nav styles */
+/* change the background color */
+
+.top-background { background: url("../images/englewood-tree-services.png") top right no-repeat;
+      }
+/* Navbar styles */
+
+.navbar-custom {
+    font-weight:bold;
+    font-size:1.4em;
+}
+ 
+		
+			#app {
+				-webkit-column-count: 4;
+				-moz-column-count: 4;
+				column-count: 4;
+				-webkit-column-gap: 15px;
+				-moz-column-gap: 15px;
+				column-gap: 15px;
+			}
+			#app img {
+				width: 100%;
+			}
+

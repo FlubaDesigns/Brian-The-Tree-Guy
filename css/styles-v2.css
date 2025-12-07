@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+/* Globals*/
+p {font-size:1em;}
+
+
+/* Nav styles */
+/* change the background color */
+
+
+.back-orange { background-color:#ee5a29;}
+.back-orange-solid {background-color:#ff670f;}
+/* colors */
+.secondary {
+	color:#008244; }
+
+.back-orange-gradient {
+     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,f4f4f4+62,f4f4f4+74,ee5a29+100&0+0,1+100 */
+background: -moz-linear-gradient(left,  rgba(255,255,255,0) 0%, rgba(244,244,244,0.62) 62%, rgba(244,244,244,0.74) 74%, rgba(238,90,41,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(255,255,255,0) 0%,rgba(244,244,244,0.62) 62%,rgba(244,244,244,0.74) 74%,rgba(238,90,41,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(255,255,255,0) 0%,rgba(244,244,244,0.62) 62%,rgba(244,244,244,0.74) 74%,rgba(238,90,41,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ee5a29',GradientType=1 ); /* IE6-9 */ 
+}
+.third-color {
+	color:#ee5a29;	} 
+
+
+
+.wsmoke {background-color:#F5F5F5; }
+
+/* Nav styles */
+/* change the background color */
+
+.top-background { background: url("../images/englewood-tree-services.png") top right no-repeat;
+      }
+/* Navbar styles */
+
+.navbar-custom {
+    font-weight:bold;
+    font-size:1.4em;
+}
+ 
+		
+			#app {
+				-webkit-column-count: 4;
+				-moz-column-count: 4;
+				column-count: 4;
+				-webkit-column-gap: 15px;
+				-moz-column-gap: 15px;
+				column-gap: 15px;
+			}
+			#app img {
+				width: 100%;
+			}
+
